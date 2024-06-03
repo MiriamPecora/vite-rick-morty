@@ -3,4 +3,8 @@
         name: "HeaderApp",
     }    
 </script>
-<template></template>
+<template>
+    <header>
+        
+    </header>
+</template>
