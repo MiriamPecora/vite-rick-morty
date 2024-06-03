@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 
+
 //import style
 import './assets/scss/main.scss';
 

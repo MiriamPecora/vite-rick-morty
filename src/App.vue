@@ -1,6 +1,18 @@
-<!-- <script></script> -->
+<script>
+  import { store } from './store';
+  import HeaderApp from './components/HeaderApp.vue';
+  import MainApp from './components/MainApp.vue';
+
+  export default {
+    data() {
+      return {
+        store,
+      };
+    },
+  };
+</script>
 <template>
-  <h1>Vue Vite Template</h1>
-  <p>Template di partenza per progetti Vite Vue</p>
+  <HeaderApp/>
+  <MainApp/>
 </template>
 <!-- <style></style> -->
