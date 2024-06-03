@@ -18,7 +18,8 @@
                         {
                             name: character.name,
                             status: character.status,
-                            species: character.species, 
+                            species: character.species,
+                            image: character.image,
                         }
                     )
                 });
@@ -29,5 +30,10 @@
     };
 </script>
 <template>
-
+    <div class="card" v-for="person in store">
+        <img :src="person.image" :alt="person.name">
+        <h2> {{ person.name }} </h2>
+        <p> {{ person.status }} </p>
+        <p class="species"> {{ person.species }} </p>
+    </div>
 </template>

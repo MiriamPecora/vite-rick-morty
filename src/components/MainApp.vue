@@ -8,5 +8,7 @@
     };
 </script>
 <template>
-    <ListApp />
+    <main>
+      <ListApp />  
+    </main>
 </template>
